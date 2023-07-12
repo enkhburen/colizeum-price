@@ -15,29 +15,29 @@ const NavigationBar: NextPage = () => {
   const menuItems = ["CSGO Tips", "DOTA2 Tips", "Valorant Tips", "NBA Tips"];
   return (
     <Layout>
-      <Navbar isBordered variant="floating" css={{ px: 5 }}>
+      <Navbar isBordered variant="sticky" css={{ px: 5 }}>
         <Navbar.Toggle
           showIn={"xs"}
           aria-label="toggle navigation"
           css={{ marginRight: "0px" }}
         />
         <Navbar.Brand hideIn={"xs"}>
-          <Image width={128} height={64} src="logo/Melbet.png" />
-          <Badge
+          <Image width={128} height={64} src="logo/colizeum.png" />
+          {/* <Badge
             size={"xs"}
             color={"secondary"}
             variant={"bordered"}
             css={{ color: "white", ml: 5 }}
           >
             MONGOLIA
-          </Badge>
+          </Badge> */}
         </Navbar.Brand>
 
         <Navbar.Content showIn={"xs"}>
-          <Image width={128} height={64} src="logo/Melbet.png" />
+          <Image width={128} height={64} src="logo/colizeum.png" />
         </Navbar.Content>
 
-        <Navbar.Content hideIn={"md"}>
+        {/* <Navbar.Content hideIn={"md"}>
           <Navbar.Link href="#">CSGO</Navbar.Link>
           <Navbar.Link href="#">DOTA</Navbar.Link>
           <Navbar.Link href="#">VALORANT</Navbar.Link>
@@ -61,9 +61,6 @@ const NavigationBar: NextPage = () => {
             />
             Telegram
           </Navbar.Link>
-          {/* <Navbar.Link href="#" hideIn={"xs"}>
-            Бүртгүүлэх
-          </Navbar.Link> */}
           <Navbar.Item>
             <Button auto flat href="#" color="success">
               <FontAwesomeIcon
@@ -73,7 +70,7 @@ const NavigationBar: NextPage = () => {
               Нэвтрэх
             </Button>
           </Navbar.Item>
-        </Navbar.Content>
+        </Navbar.Content> */}
         <Navbar.Collapse>
           {menuItems.map((item, index) => (
             <Navbar.CollapseItem key={item}>

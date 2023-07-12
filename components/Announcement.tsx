@@ -1,14 +1,26 @@
 import type { NextPage } from "next";
-import { Badge, Text } from "@nextui-org/react";
+import { Badge, Text, Image, Container } from "@nextui-org/react";
 
 const Announcement: NextPage = () => {
   return (
-    <Text css={{ fontSize: "14px", pt: 15, textAlign: "center" }}>
-      <Badge variant="bordered" color={"success"} css={{ marginRight: "5px" }}>
-        Сайн уу! v0.0.1
-      </Badge>
-      Монголын анхны өөртөө үйлчилдэг агент
-    </Text>
+    <Container css={{ mt: 150 }}>
+      <Image width={256} height={128} src="logo/colizeum.png" alt="" />
+      <Text
+        css={{
+          fontSize: "24px",
+          textAlign: "center",
+          textTransform: "uppercase",
+        }}
+      >
+        <Badge
+          variant="bordered"
+          css={{ marginRight: "5px", color: "#FEF102", borderColor: "#FEF102" }}
+        >
+          C O L I Z E U M !
+        </Badge>
+        Тавтай морил!
+      </Text>
+    </Container>
   );
 };
 

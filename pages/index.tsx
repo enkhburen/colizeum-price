@@ -7,17 +7,18 @@ import Announcement from "@/components/Announcement";
 import ReactParticles from "@/components/reactparticles";
 import SupportedBanks from "@/components/SupportedBanks";
 import Faq from "@/components/Faq";
+import Price from "@/components/Price";
 
 import { Container, Spacer } from "@nextui-org/react";
 
 const Home: NextPage = () => {
   return (
     <Layout>
-      <title>Монголын анхны өөртөө үйлчилдэг агент</title>
+      <title>COLIZEUM MONGOLIA</title>
 
       <ReactParticles />
       <Announcement />
-      <NavigationBar />
+      {/* <NavigationBar /> */}
       <Container
         css={{
           maxWidth: "1400px",
@@ -27,11 +28,12 @@ const Home: NextPage = () => {
         }}
       >
         <Spacer y={2} />
-        <Jumbotron />
-        <Spacer y={3} />
-        <SupportedBanks />
-        <Spacer y={3} />
-        <Faq />
+        <Price/>
+        {/* <Jumbotron /> */}
+        {/* <Spacer y={3} /> */}
+        {/* <SupportedBanks /> */}
+        {/* <Spacer y={3} /> */}
+        {/* <Faq /> */}
         {/* Features */}
         {/* Messenger Chat api */}
 
