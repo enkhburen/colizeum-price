@@ -1,6 +1,6 @@
-import { Box } from "./Box";
+import Box from "./Box";
 
-export const Layout = ({ children }: any) => (
+const Layout = ({ children }: any) => (
   <Box
     css={{
       maxW: "100%",
@@ -9,3 +9,5 @@ export const Layout = ({ children }: any) => (
     {children}
   </Box>
 );
+
+export default Layout;

@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Layout } from "@/pages/Layout";
+import Layout from "@/pages/Layout";
 
 import { Navbar, Image, Button, Link, Text, Badge } from "@nextui-org/react";
 

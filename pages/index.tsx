@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Layout } from "./Layout";
+import Layout from "./Layout";
 import NavigationBar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Jumbotron from "@/components/Jumbotron";
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         }}
       >
         <Spacer y={2} />
-        <Price/>
+        <Price />
         {/* <Jumbotron /> */}
         {/* <Spacer y={3} /> */}
         {/* <SupportedBanks /> */}

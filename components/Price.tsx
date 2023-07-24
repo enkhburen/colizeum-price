@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Layout } from "@/pages/Layout";
+import Layout from "@/pages/Layout";
 
 import {
   Image,
@@ -65,7 +65,7 @@ const Price: NextPage = () => {
             color="#FEF102"
             style={{ marginRight: "20px" }}
           />
-          ЗААЛ (RTX 3060, 165hz, 27")
+          ЗААЛ (RTX 3060, 165hz, 27&quot;)
         </Text>
       </Col>
       <Col>
@@ -167,7 +167,7 @@ const Price: NextPage = () => {
             color="#FEF102"
             style={{ marginRight: "20px" }}
           />
-          BOOTCAMP (RTX 3060, 165hz, 27")
+          BOOTCAMP (RTX 3060, 165hz, 27&quot;)
         </Text>
       </Col>
       <Col css={{ mt: 10 }}>
@@ -271,7 +271,7 @@ const Price: NextPage = () => {
             color="#FEF102"
             style={{ marginRight: "20px" }}
           />
-          BOOTCAMP-VIP (RTX 3070Ti, 280hz, 27")
+          BOOTCAMP-VIP (RTX 3070Ti, 280hz, 27&quot;)
         </Text>
       </Col>
       <Col>
@@ -375,7 +375,7 @@ const Price: NextPage = () => {
             color="#FEF102"
             style={{ marginRight: "20px" }}
           />
-          Playstation 5 65" (2 хүртэл хүн)
+          Playstation 5 65&quot; (2 хүртэл хүн)
         </Text>
       </Col>
       <Col>
